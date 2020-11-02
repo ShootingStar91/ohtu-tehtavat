@@ -1,5 +1,3 @@
-ohtuesimerkki/Player.java
- ohtuesimerkki.Player
 ohtuesimerkki/PlayerReader.java
  ohtuesimerkki.PlayerReader
 ohtuesimerkki/Main.java
@@ -8,3 +6,5 @@ ohtuesimerkki/Reader.java
  ohtuesimerkki.Reader
 ohtuesimerkki/Statistics.java
  ohtuesimerkki.Statistics
+ohtuesimerkki/Player.java
+ ohtuesimerkki.Player
