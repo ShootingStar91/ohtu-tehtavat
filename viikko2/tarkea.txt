@@ -4,3 +4,5 @@ tekstiä
 tässä 
 uudesta
 haarasta
+vielä loppuun uudet tekstit toka branchissa
+tällein se konflikti luodaan
