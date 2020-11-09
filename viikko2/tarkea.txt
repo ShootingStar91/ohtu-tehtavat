@@ -1,8 +1,6 @@
+lisätään
+muutama muu
+rivi tähän
 muutama
 rivi
 tekstiä
-tässä 
-uudesta
-haarasta
-vielä loppuun uudet tekstit toka branchissa
-tällein se konflikti luodaan
