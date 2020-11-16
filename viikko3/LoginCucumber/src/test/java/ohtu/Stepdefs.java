@@ -9,6 +9,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import ohtu.io.*;
 import ohtu.data_access.*;
+import ohtu.domain.User;
 import ohtu.services.*;
 
 public class Stepdefs {
@@ -44,5 +45,16 @@ public class Stepdefs {
     public void systemWillRespondWith(String expectedOutput) {
         assertTrue(io.getPrints().contains(expectedOutput));
     }    
-
+    
+    @Given("user {string} with password {string} is created")
+    public void userIsCreated(String username, String password) {
+        userDao.add(new User(username, password));
+    }
+    
+    @Given("command new is selected")
+    public void commandNewSelected() {
+        inputLines.add("new");
+    }
+    
+    
 }
