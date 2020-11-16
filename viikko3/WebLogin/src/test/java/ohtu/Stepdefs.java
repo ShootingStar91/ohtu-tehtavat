@@ -49,9 +49,9 @@ public class Stepdefs {
         logInWith(username, password);
     }   
     
-    @Then("system will respond {string}")
-    public void systemWillRespond(String pageContent) throws Throwable {
-        assertTrue(driver.getPageSource().contains(pageContent));
+    @When("nonexistent username is given")
+    public void nonexistentUsernameIsGiven() {
+        logInWith("pentti_olematon", "salasana");
     }
     
     @After
@@ -73,5 +73,8 @@ public class Stepdefs {
         element.sendKeys(password);
         element = driver.findElement(By.name("login"));
         element.submit();  
-    } 
+    }
+    
+    
+    
 }
