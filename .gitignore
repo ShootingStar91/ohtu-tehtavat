@@ -1,2 +1,6 @@
 /viikko2/build/*
 /viikko2/.gradle/*
+/viikko4/MockitoDemo/build/
+/viikko4/MaksukorttiMockito/build/
+/viikko4/Verkkokauppa/build/
+/viikko4/IntJoukkoSovellus/build/
