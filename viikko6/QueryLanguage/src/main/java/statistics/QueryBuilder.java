@@ -26,11 +26,18 @@ public class QueryBuilder {
         for (int i = 0; i < matchers.size(); i++) {
             matcherArray[i] = matchers.get(i);
         }
+        matchers.clear();
        return new And(matcherArray);
     }
     
     public QueryBuilder hasAtLeast(int value, String category) {
         matchers.add(new HasAtLeast(value, category));
+        return this;
+    }
+    
+    public QueryBuilder oneOf(Matcher m1, Matcher m2) {
+        matchers.clear();
+        matchers.add(new Or(m1, m2));
         return this;
     }
     
