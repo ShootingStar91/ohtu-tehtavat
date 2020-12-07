@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 tämäonmasteriinmuutettujotoisenkerran
+=======
+tämä on luotu haara1ssä
+>>>>>>> haara1 eka
